@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Interview Checklist (U.S. Version) - Dementia Home Care Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+        }
+        .header p {
+            margin: 0;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            margin: 25px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 1.4em;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        .section h3 {
+            color: #34495e;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+        }
+        .checklist-item {
+            margin: 8px 0;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-left: 3px solid #e9ecef;
+            border-radius: 3px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .checklist-item input[type="checkbox"] {
+            margin-right: 12px;
+            margin-top: 4px;
+            min-width: 16px;
+        }
+        .checklist-item label {
+            flex: 1;
+            cursor: pointer;
+            font-size: 0.95em;
+        }
+        .critical-item {
+            background: #fff3cd;
+            border-left: 3px solid #ffc107;
+        }
+        .red-flag {
+            background: #f8d7da;
+            border-left: 3px solid #dc3545;
+        }
+        .key-difference {
+            background: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .stats-box {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .note-area {
+            width: 100%;
+            min-height: 80px;
+            padding: 10px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            font-family: inherit;
+            margin-top: 10px;
+            resize: vertical;
+        }
+        .rating-scale {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+            align-items: center;
+        }
+        .rating-scale input[type="radio"] {
+            margin: 0 5px 0 0;
+        }
+        .agency-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .agency-info h4 {
+            margin: 0 0 10px 0;
+            color: #1976d2;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .contact-info input {
+            padding: 8px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+        }
+        @media (max-width: 600px) {
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+        .print-button {
+            background: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 20px 0;
+        }
+        .print-button:hover {
+            background: #2980b9;
+        }
+        @media print {
+            .print-button {
+                display: none;
+            }
+            body {
+                background: white;
+            }
+            .section {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Provider Interview Checklist</h1>
+        <p>U.S. Version - Essential Questions for Selecting Quality Dementia Home Care</p>
+    </div>
+
+    <div class="section">
+        <div class="key-difference">
+            <strong>How to Use This Checklist:</strong> Use this comprehensive checklist when interviewing home care agencies and individual caregivers. Print multiple copies for each provider you're considering. The items marked as "Critical" are non-negotiable requirements, while "Red Flags" indicate serious concerns that should disqualify a provider.
+        </div>
+        <button class="print-button" onclick="window.print()">Print This Checklist</button>
+    </div>
+
+    <div class="section">
+        <div class="agency-info">
+            <h4>Provider Information</h4>
+            <div class="contact-info">
+                <input type="text" placeholder="Agency/Provider Name">
+                <input type="text" placeholder="Contact Person">
+                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Physical Address">
+                <input type="text" placeholder="Interview Date">
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>1. Licensing and Certification Requirements</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="state-license">
+            <label for="state-license"><strong>CRITICAL:</strong> Agency has current state home care license (verify online)</label>
+        </div>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="medicare-certified">
+            <label for="medicare-certified"><strong>CRITICAL:</strong> Medicare-certified (if you need Medicare-covered services)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="medicaid-provider">
+            <label for="medicaid-provider">Medicaid waiver program provider (if applicable)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="accreditation">
+            <label for="accreditation">Accredited by Joint Commission, CHAP, or ACHC</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="specialty-dementia">
+            <label for="specialty-dementia">Specialized dementia care certification</label>
+        </div>
+        
+        <h3>License Numbers and Verification:</h3>
+        <textarea class="note-area" placeholder="Record license numbers and verification dates here..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>2. Insurance and Billing</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="liability-insurance">
+            <label for="liability-insurance"><strong>CRITICAL:</strong> Carries liability insurance (minimum $1 million)</label>
+        </div>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="workers-comp">
+            <label for="workers-comp"><strong>CRITICAL:</strong> Workers' compensation coverage for all employees</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="bonded">
+            <label for="bonded">Bonded (protects against theft)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="billing-transparency">
+            <label for="billing-transparency">Clear, transparent billing practices</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="insurance-direct-bill">
+            <label for="insurance-direct-bill">Will bill insurance directly (Medicare/Medicaid/Private)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="payment-options">
+            <label for="payment-options">Multiple payment options available</label>
+        </div>
+        
+        <h3>Insurance Coverage Details:</h3>
+        <textarea class="note-area" placeholder="Note which insurance plans they accept, billing procedures, co-pay requirements..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>3. Staff Qualifications and Training</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="background-checks">
+            <label for="background-checks"><strong>CRITICAL:</strong> Conducts comprehensive background checks (criminal, employment, references)</label>
+        </div>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="dementia-training">
+            <label for="dementia-training"><strong>CRITICAL:</strong> All caregivers receive specialized dementia training</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="ongoing-training">
+            <label for="ongoing-training">Provides ongoing continuing education</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="certification-requirements">
+            <label for="certification-requirements">Requires relevant certifications (CNA, HHA, etc.)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="experience-requirements">
+            <label for="experience-requirements">Minimum experience requirements for dementia care</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="language-capabilities">
+            <label for="language-capabilities">Staff available who speak your preferred language</label>
+        </div>
+        
+        <div class="checklist-item red-flag">
+            <input type="checkbox" id="high-turnover">
+            <label for="high-turnover"><strong>RED FLAG:</strong> High staff turnover rate (ask about their retention statistics)</label>
+        </div>
+        
+        <h3>Training Program Details:</h3>
+        <textarea class="note-area" placeholder="Ask about specific dementia training programs, hours of training, frequency of updates..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>4. Services and Care Capabilities</h2>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="personal-care">
+            <label for="personal-care">Personal care (bathing, dressing, grooming)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="medication-management">
+            <label for="medication-management">Medication reminders and management</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="meal-preparation">
+            <label for="meal-preparation">Meal planning and preparation</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="transportation">
+            <label for="transportation">Transportation to medical appointments</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="housekeeping">
+            <label for="housekeeping">Light housekeeping and laundry</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="companionship">
+            <label for="companionship">Companionship and social engagement</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="behavior-management">
+            <label for="behavior-management">Specialized behavior management for dementia symptoms</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="skilled-nursing">
+            <label for="skilled-nursing">Skilled nursing services (if needed)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="respite-care">
+            <label for="respite-care">Respite care for family caregivers</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="24-7-availability">
+            <label for="24-7-availability">24/7 care availability</label>
+        </div>
+        
+        <h3>Specialized Dementia Services:</h3>
+        <textarea class="note-area" placeholder="List specific dementia-related services they offer..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>5. Scheduling and Flexibility</h2>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="flexible-scheduling">
+            <label for="flexible-scheduling">Flexible scheduling to meet your needs</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="consistent-caregivers">
+            <label for="consistent-caregivers">Commits to consistent caregiver assignments</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="backup-coverage">
+            <label for="backup-coverage">Reliable backup coverage for sick days/vacations</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="short-notice">
+            <label for="short-notice">Can accommodate short-notice changes</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="weekend-coverage">
+            <label for="weekend-coverage">Weekend and holiday coverage available</label>
+        </div>
+        
+        <div class="checklist-item red-flag">
+            <input type="checkbox" id="frequent-changes">
+            <label for="frequent-changes"><strong>RED FLAG:</strong> Frequent caregiver changes without notice</label>
+        </div>
+        
+        <h3>Scheduling Policies:</h3>
+        <textarea class="note-area" placeholder="Note their policies on schedule changes, cancellations, minimum hours..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>6. Communication and Family Involvement</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="care-plan">
+            <label for="care-plan"><strong>CRITICAL:</strong> Develops written, personalized care plan</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="regular-updates">
+            <label for="regular-updates">Provides regular progress updates to family</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="daily-logs">
+            <label for="daily-logs">Maintains detailed daily care logs</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="emergency-communication">
+            <label for="emergency-communication">Clear emergency communication protocols</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="supervisor-available">
+            <label for="supervisor-available">Supervisor readily available for questions/concerns</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="care-plan-reviews">
+            <label for="care-plan-reviews">Regular care plan reviews and updates</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="technology-tools">
+            <label for="technology-tools">Uses technology for communication/monitoring (apps, portals)</label>
+        </div>
+        
+        <h3>Communication Methods:</h3>
+        <textarea class="note-area" placeholder="How do they communicate with families? What technology do they use?"></textarea>
+    </div>
+
+    <div class="section">
+        <h2>7. Safety and Emergency Procedures</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="emergency-protocols">
+            <label for="emergency-protocols"><strong>CRITICAL:</strong> Written emergency response protocols</label>
+        </div>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="medical-emergency">
+            <label for="medical-emergency"><strong>CRITICAL:</strong> Clear procedures for medical emergencies</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="wandering-protocols">
+            <label for="wandering-protocols">Specific protocols for wandering/elopement prevention</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="fall-prevention">
+            <label for="fall-prevention">Fall prevention strategies and training</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="medication-safety">
+            <label for="medication-safety">Medication safety protocols</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="incident-reporting">
+            <label for="incident-reporting">Comprehensive incident reporting system</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="abuse-prevention">
+            <label for="abuse-prevention">Elder abuse prevention training and reporting procedures</label>
+        </div>
+        
+        <h3>Safety Measures:</h3>
+        <textarea class="note-area" placeholder="What specific safety measures do they have in place for dementia patients?"></textarea>
+    </div>
+
+    <div class="section">
+        <h2>8. Cost and Contract Terms</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="transparent-pricing">
+            <label for="transparent-pricing"><strong>CRITICAL:</strong> Transparent, written pricing structure</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="no-hidden-fees">
+            <label for="no-hidden-fees">No hidden fees or surprise charges</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="reasonable-contract">
+            <label for="reasonable-contract">Reasonable contract terms (avoid long-term commitments initially)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="termination-policy">
+            <label for="termination-policy">Clear termination policy for both parties</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="rate-increase-policy">
+            <label for="rate-increase-policy">Written policy on rate increases</label>
+        </div>
+        
+        <div class="checklist-item red-flag">
+            <input type="checkbox" id="pressure-sales">
+            <label for="pressure-sales"><strong>RED FLAG:</strong> High-pressure sales tactics or immediate payment demands</label>
+        </div>
+        
+        <h3>Cost Breakdown:</h3>
+        <div class="contact-info">
+            <input type="text" placeholder="Hourly Rate: $">
+            <input type="text" placeholder="Minimum Hours: ">
+            <input type="text" placeholder="Weekend/Holiday Rate: $">
+            <input type="text" placeholder="Cancellation Fee: $">
+        </div>
+        
+        <textarea class="note-area" placeholder="Additional costs, contract terms, payment schedules..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>9. References and Reputation</h2>
+        
+        <div class="checklist-item critical-item">
+            <input type="checkbox" id="client-references">
+            <label for="client-references"><strong>CRITICAL:</strong> Provides recent client references (specifically dementia families)</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="physician-references">
+            <label for="physician-references">Can provide physician or hospital references</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="online-reviews">
+            <label for="online-reviews">Positive online reviews and ratings</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="bbb-rating">
+            <label for="bbb-rating">Good Better Business Bureau rating</label>
+        </div>
+        
+        <div class="checklist-item">
+            <input type="checkbox" id="community-reputation">
+            <label for="community-reputation">Strong reputation in local medical community</label>
+        </div>
+        
+        <div class="checklist-item red-flag">
+            <input type="checkbox" id="complaints-violations">
+            <label for="complaints-violations"><strong>RED FLAG:</strong> History of complaints or regulatory violations</label>
+        </div>
+        
+        <h3>Reference Check Results:</h3>
+        <textarea class="note-area" placeholder="Record feedback from references, online reviews summary, any concerns noted..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2>10. Overall Impression and Decision</h2>
+        
+        <h3>Rate this provider overall (1 = Poor, 5 = Excellent):</h3>
+        <div class="rating-scale">
+            <input type="radio" name="overall-rating" id="rating-1" value="1">
+            <label for="rating-1">1 - Poor</label>
+            <input type="radio" name="overall-rating" id="rating-2" value="2">
+            <label for="rating-2">2 - Fair</label>
+            <input type="radio" name="overall-rating" id="rating-3" value="3">
+            <label for="rating-3">3 - Good</label>
+            <input type="radio" name="overall-rating" id="rating-4" value="4">
+            <label for="rating-4">4 - Very Good</label>
+            <input type="radio" name="overall-rating" id="rating-5" value="5">
+            <label for="rating-5">5 - Excellent</label>
+        </div>
+        
+        <h3>Strengths:</h3>
+        <textarea class="note-area" placeholder="What are this provider's main strengths?"></textarea>
+        
+        <h3>Concerns:</h3>
+        <textarea class="note-area" placeholder="What concerns do you have about this provider?"></textarea>
+        
+        <h3>Questions for Follow-up:</h3>
+        <textarea class="note-area" placeholder="What additional questions do you need answered?"></textarea>
+        
+        <h3>Decision:</h3>
+        <div class="checklist-item">
+            <input type="checkbox" id="definitely-consider">
+            <label for="definitely-consider">Definitely consider for hire</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="maybe-consider">
+            <label for="maybe-consider">Maybe - need more information</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="not-suitable">
+            <label for="not-suitable">Not suitable for our needs</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="stats-box">
+            <h3>Quick Decision Guide:</h3>
+            <ul>
+                <li><strong>Must Have All Critical Items Checked:</strong> These are non-negotiable for safety and legal protection</li>
+                <li><strong>Any Red Flags = Disqualify:</strong> These indicate serious problems that could endanger your loved one</li>
+                <li><strong>Compare Multiple Providers:</strong> Interview at least 3 agencies before making a decision</li>
+                <li><strong>Trust Your Instincts:</strong> If something feels off, investigate further or look elsewhere</li>
+                <li><strong>Start with a Trial Period:</strong> Even the best interview doesn't guarantee good fit - start small</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="key-difference">
+            <strong>Next Steps After Using This Checklist:</strong> Compare your completed checklists side by side, call references for your top 2-3 choices, verify all licensing and insurance information independently, and consider starting with a short-term trial period before committing to long-term care arrangements.
+        </div>
+    </div>
+
+</body>
+</html>
